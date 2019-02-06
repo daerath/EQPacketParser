@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seqopcodes>
+  <opcode id="0x0000" name="OP_Unknown">
+    <comment />
+  </opcode>
+  <opcode id="0x7a09" name="OP_SendLoginInfo">
+    <comment />
+  </opcode>
+  <opcode id="0x7499" name="OP_ApproveWorld">
+    <comment />
+  </opcode>
+  <opcode id="0x7ceb" name="OP_LogServer">
+    <comment />
+  </opcode>
+  <opcode id="0x00d2" name="OP_SendCharInfo">
+    <comment />
+  </opcode>
+  <opcode id="0x590d" name="OP_ExpansionInfo">
+    <comment />
+  </opcode>
+  <opcode id="0x507a" name="OP_GuildsList">
+    <comment />
+  </opcode>
+  <opcode id="0x578f" name="OP_EnterWorld">
+    <comment />
+  </opcode>
+  <opcode id="0x6259" name="OP_PostEnterWorld">
+    <comment />
+  </opcode>
+  <opcode id="0x12cc" name="OP_World_Client_CRC1">
+    <comment />
+  </opcode>
+  <opcode id="0x0f13" name="OP_World_Client_CRC2">
+    <comment />
+  </opcode>
+  <opcode id="0x5475" name="OP_SendMaxCharacters">
+    <comment />
+  </opcode>
+  <opcode id="0x7acc" name="OP_SendMembership">
+    <comment />
+  </opcode>
+  <opcode id="0x057b" name="OP_SendMembershipDetails">
+    <comment />
+  </opcode>
+  <opcode id="0x6773" name="OP_CharacterCreateRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x6bbf" name="OP_CharacterCreate">
+    <comment />
+  </opcode>
+  <opcode id="0x1808" name="OP_DeleteCharacter">
+    <comment />
+  </opcode>
+  <opcode id="0x5954" name="OP_RandomNameGenerator">
+    <comment />
+  </opcode>
+  <opcode id="0x56a2" name="OP_ApproveName">
+    <comment />
+  </opcode>
+  <opcode id="0x0c22" name="OP_MOTD">
+    <comment />
+  </opcode>
+  <opcode id="0x1bc5" name="OP_SetChatServer">
+    <comment />
+  </opcode>
+  <opcode id="0x7eec" name="OP_SetChatServer2">
+    <comment />
+  </opcode>
+  <opcode id="0x4c44" name="OP_ZoneServerInfo">
+    <comment />
+  </opcode>
+  <opcode id="0x4493" name="OP_WorldComplete">
+    <comment />
+  </opcode>
+  <opcode id="0x2301" name="OP_WorldUnknown001">
+    <comment />
+  </opcode>
+  <opcode id="0x46c6" name="OP_FloatListThing">
+    <comment />
+  </opcode>
+  <opcode id="0x4cb4" name="OP_ZoneUnavail">
+    <comment />
+  </opcode>
+  <opcode id="0x23c1" name="OP_WorldClientReady">
+    <comment />
+  </opcode>
+  <opcode id="0x471d" name="OP_AckPacket">
+    <comment />
+  </opcode>
+  <opcode id="0x5089" name="OP_ZoneEntry">
+    <comment />
+  </opcode>
+  <opcode id="0x7887" name="OP_ReqNewZone">
+    <comment />
+  </opcode>
+  <opcode id="0x1795" name="OP_NewZone">
+    <comment />
+  </opcode>
+  <opcode id="0x5237" name="OP_ZoneSpawns">
+    <comment />
+  </opcode>
+  <opcode id="0x6506" name="OP_PlayerProfile">
+    <comment />
+  </opcode>
+  <opcode id="0x5070" name="OP_TimeOfDay">
+    <comment />
+  </opcode>
+  <opcode id="0x1eec" name="OP_LevelUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x2a79" name="OP_Stamina">
+    <comment />
+  </opcode>
+  <opcode id="0x3fcf" name="OP_RequestClientZoneChange">
+    <comment />
+  </opcode>
+  <opcode id="0x2d18" name="OP_ZoneChange">
+    <comment />
+  </opcode>
+  <opcode id="0x0971" name="OP_SpawnAppearance">
+    <comment />
+  </opcode>
+  <opcode id="0x4707" name="OP_ChangeSize">
+    <comment />
+  </opcode>
+  <opcode id="0x5961" name="OP_TributeUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x073d" name="OP_TributeTimer">
+    <comment />
+  </opcode>
+  <opcode id="0x729b" name="OP_SendTributes">
+    <comment />
+  </opcode>
+  <opcode id="0x1877" name="OP_SendGuildTributes">
+    <comment />
+  </opcode>
+  <opcode id="0x4254" name="OP_TributeInfo">
+    <comment />
+  </opcode>
+  <opcode id="0x661e" name="OP_Weather">
+    <comment />
+  </opcode>
+  <opcode id="0x35fa" name="OP_ReqClientSpawn">
+    <comment />
+  </opcode>
+  <opcode id="0x7291" name="OP_SpawnDoor">
+    <comment />
+  </opcode>
+  <opcode id="0x6fca" name="OP_GroundSpawn">
+    <comment />
+  </opcode>
+  <opcode id="0x69a4" name="OP_SendZonepoints">
+    <comment />
+  </opcode>
+  <opcode id="0x3033" name="OP_BlockedBuffs">
+    <comment />
+  </opcode>
+  <opcode id="0x0de7" name="OP_RemoveBlockedBuffs">
+    <comment />
+  </opcode>
+  <opcode id="0x34cb" name="OP_ClearBlockedBuffs">
+    <comment />
+  </opcode>
+  <opcode id="0x5ae2" name="OP_WorldObjectsSent">
+    <comment />
+  </opcode>
+  <opcode id="0x5f8e" name="OP_SendExpZonein">
+    <comment />
+  </opcode>
+  <opcode id="0x66b5" name="OP_SendAATable">
+    <comment />
+  </opcode>
+  <opcode id="0x0f50" name="OP_ClearAA">
+    <comment />
+  </opcode>
+  <opcode id="0x6da5" name="OP_ClearLeadershipAbilities">
+    <comment />
+  </opcode>
+  <opcode id="0x7a27" name="OP_RespondAA">
+    <comment />
+  </opcode>
+  <opcode id="0x66f0" name="OP_UpdateAA">
+    <comment />
+  </opcode>
+  <opcode id="0x43c8" name="OP_SendAAStats">
+    <comment />
+  </opcode>
+  <opcode id="0x7d14" name="OP_AAExpUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x20ed" name="OP_ExpUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x2828" name="OP_HPUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x5467" name="OP_ManaChange">
+    <comment />
+  </opcode>
+  <opcode id="0x0876" name="OP_TGB">
+    <comment />
+  </opcode>
+  <opcode id="0x0083" name="OP_SpecialMesg">
+    <comment />
+  </opcode>
+  <opcode id="0x12a6" name="OP_GuildMemberList">
+    <comment />
+  </opcode>
+  <opcode id="0x3e13" name="OP_GuildMOTD">
+    <comment />
+  </opcode>
+  <opcode id="0x5ca6" name="OP_CharInventory">
+    <comment />
+  </opcode>
+  <opcode id="0x7994" name="OP_WearChange">
+    <comment />
+  </opcode>
+  <opcode id="0x7dfc" name="OP_ClientUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x345d" name="OP_ClientReady">
+    <comment />
+  </opcode>
+  <opcode id="0x444d" name="OP_SetServerFilter">
+    <comment />
+  </opcode>
+  <opcode id="0x36e0" name="OP_GetGuildMOTD">
+    <comment />
+  </opcode>
+  <opcode id="0x4f1f" name="OP_GetGuildMOTDReply">
+    <comment />
+  </opcode>
+  <opcode id="0x69b9" name="OP_GuildMemberUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x7099" name="OP_GuildInvite">
+    <comment />
+  </opcode>
+  <opcode id="0x1444" name="OP_GuildRemove">
+    <comment />
+  </opcode>
+  <opcode id="0x67e3" name="OP_GuildPeace">
+    <comment />
+  </opcode>
+  <opcode id="0x0b0b" name="OP_SetGuildMOTD">
+    <comment />
+  </opcode>
+  <opcode id="0x1ffb" name="OP_GuildWar">
+    <comment />
+  </opcode>
+  <opcode id="0x7e09" name="OP_GuildLeader">
+    <comment />
+  </opcode>
+  <opcode id="0x3708" name="OP_GuildDelete">
+    <comment />
+  </opcode>
+  <opcode id="0x7053" name="OP_GuildInviteAccept">
+    <comment />
+  </opcode>
+  <opcode id="0x2d4e" name="OP_GuildDemote">
+    <comment />
+  </opcode>
+  <opcode id="0x6a98" name="OP_GuildPromote">
+    <comment />
+  </opcode>
+  <opcode id="0x5053" name="OP_GuildPublicNote">
+    <comment />
+  </opcode>
+  <opcode id="0x3f35" name="OP_GuildManageBanker">
+    <comment />
+  </opcode>
+  <opcode id="0x5134" name="OP_GuildBank">
+    <comment />
+  </opcode>
+  <opcode id="0x7850" name="OP_GuildBankItemList">
+    <comment />
+  </opcode>
+  <opcode id="0x0b9c" name="OP_SetGuildRank">
+    <comment />
+  </opcode>
+  <opcode id="0x2958" name="OP_GuildUpdateURLAndChannel">
+    <comment />
+  </opcode>
+  <opcode id="0x7326" name="OP_GuildStatus">
+    <comment />
+  </opcode>
+  <opcode id="0x76d9" name="OP_GuildCreate">
+    <comment />
+  </opcode>
+  <opcode id="0x08c1" name="OP_GMServers">
+    <comment />
+  </opcode>
+  <opcode id="0x3ae1" name="OP_GMBecomeNPC">
+    <comment />
+  </opcode>
+  <opcode id="0x62ac" name="OP_GMZoneRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x7e1a" name="OP_GMZoneRequest2">
+    <comment />
+  </opcode>
+  <opcode id="0x7d8e" name="OP_GMGoto">
+    <comment />
+  </opcode>
+  <opcode id="0x357c" name="OP_GMSearchCorpse">
+    <comment />
+  </opcode>
+  <opcode id="0x2fab" name="OP_GMHideMe">
+    <comment />
+  </opcode>
+  <opcode id="0x607e" name="OP_GMDelCorpse">
+    <comment />
+  </opcode>
+  <opcode id="0x6db5" name="OP_GMApproval">
+    <comment />
+  </opcode>
+  <opcode id="0x2097" name="OP_GMToggle">
+    <comment />
+  </opcode>
+  <opcode id="0x486f" name="OP_GMSummon">
+    <comment />
+  </opcode>
+  <opcode id="0x1cfd" name="OP_GMEmoteZone">
+    <comment />
+  </opcode>
+  <opcode id="0x458e" name="OP_GMEmoteWorld">
+    <comment />
+  </opcode>
+  <opcode id="0x4a8f" name="OP_GMFind">
+    <comment />
+  </opcode>
+  <opcode id="0x26a7" name="OP_GMKick">
+    <comment />
+  </opcode>
+  <opcode id="0x51d3" name="OP_GMKill">
+    <comment />
+  </opcode>
+  <opcode id="0x035f" name="OP_GMNameChange">
+    <comment />
+  </opcode>
+  <opcode id="0x46ce" name="OP_GMLastName">
+    <comment />
+  </opcode>
+  <opcode id="0x398f" name="OP_QueryUCSServerStatus">
+    <comment />
+  </opcode>
+  <opcode id="0x57bc" name="OP_InspectRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x71ac" name="OP_InspectAnswer">
+    <comment />
+  </opcode>
+  <opcode id="0x4d25" name="OP_InspectMessageUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x318f" name="OP_BeginCast">
+    <comment />
+  </opcode>
+  <opcode id="0x43af" name="OP_ColoredText">
+    <comment />
+  </opcode>
+  <opcode id="0x384a" name="OP_ConsentResponse">
+    <comment />
+  </opcode>
+  <opcode id="0x217c" name="OP_MemorizeSpell">
+    <comment />
+  </opcode>
+  <opcode id="0x1619" name="OP_LinkedReuse">
+    <comment />
+  </opcode>
+  <opcode id="0x0efa" name="OP_SwapSpell">
+    <comment />
+  </opcode>
+  <opcode id="0x1287" name="OP_CastSpell">
+    <comment />
+  </opcode>
+  <opcode id="0x742b" name="OP_Consider">
+    <comment />
+  </opcode>
+  <opcode id="0x1024" name="OP_FormattedMessage">
+    <comment />
+  </opcode>
+  <opcode id="0x213f" name="OP_SimpleMessage">
+    <comment />
+  </opcode>
+  <opcode id="0x659c" name="OP_Buff">
+    <comment />
+  </opcode>
+  <opcode id="0x312a" name="OP_Illusion">
+    <comment />
+  </opcode>
+  <opcode id="0x5f44" name="OP_MoneyOnCorpse">
+    <comment />
+  </opcode>
+  <opcode id="0x106b" name="OP_RandomReply">
+    <comment />
+  </opcode>
+  <opcode id="0x2382" name="OP_DenyResponse">
+    <comment />
+  </opcode>
+  <opcode id="0x04c" name="OP_SkillUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x4b64" name="OP_GMTrainSkillConfirm">
+    <comment />
+  </opcode>
+  <opcode id="0x7b10" name="OP_RandomReq">
+    <comment />
+  </opcode>
+  <opcode id="0x6517" name="OP_Death">
+    <comment />
+  </opcode>
+  <opcode id="0x1966" name="OP_GMTraining">
+    <comment />
+  </opcode>
+  <opcode id="0x4d6b" name="OP_GMEndTraining">
+    <comment />
+  </opcode>
+  <opcode id="0x2a85" name="OP_GMTrainSkill">
+    <comment />
+  </opcode>
+  <opcode id="0x7177" name="OP_Animation">
+    <comment />
+  </opcode>
+  <opcode id="0x6703" name="OP_Begging">
+    <comment />
+  </opcode>
+  <opcode id="0x1fd1" name="OP_Consent">
+    <comment />
+  </opcode>
+  <opcode id="0x7a45" name="OP_ConsentDeny">
+    <comment />
+  </opcode>
+  <opcode id="0x241e" name="OP_AutoFire">
+    <comment />
+  </opcode>
+  <opcode id="0x0159" name="OP_PetCommands">
+    <comment />
+  </opcode>
+  <opcode id="0x1dc8" name="OP_PetCommandState">
+    <comment />
+  </opcode>
+  <opcode id="0x794a" name="OP_PetHoTT">
+    <comment />
+  </opcode>
+  <opcode id="0x3358" name="OP_DeleteSpell">
+    <comment />
+  </opcode>
+  <opcode id="0x0423" name="OP_Surname">
+    <comment />
+  </opcode>
+  <opcode id="0x3fb0" name="OP_ClearSurname">
+    <comment />
+  </opcode>
+  <opcode id="0x5578" name="OP_FaceChange">
+    <comment />
+  </opcode>
+  <opcode id="0x260a" name="OP_SenseHeading">
+    <comment />
+  </opcode>
+  <opcode id="0x744c" name="OP_Action">
+    <comment />
+  </opcode>
+  <opcode id="0x5204" name="OP_ConsiderCorpse">
+    <comment />
+  </opcode>
+  <opcode id="0x49e1" name="OP_HideCorpse">
+    <comment />
+  </opcode>
+  <opcode id="0x0904" name="OP_CorpseDrag">
+    <comment />
+  </opcode>
+  <opcode id="0x7037" name="OP_CorpseDrop">
+    <comment />
+  </opcode>
+  <opcode id="0x73f4" name="OP_Bug">
+    <comment />
+  </opcode>
+  <opcode id="0x5602" name="OP_Feedback">
+    <comment />
+  </opcode>
+  <opcode id="0x6f14" name="OP_Report">
+    <comment />
+  </opcode>
+  <opcode id="0x6f15" name="OP_Damage">
+    <comment />
+  </opcode>
+  <opcode id="0x2b2d" name="OP_ChannelMessage">
+    <comment />
+  </opcode>
+  <opcode id="0x4478" name="OP_Assist">
+    <comment />
+  </opcode>
+  <opcode id="0x27f8" name="OP_AssistGroup">
+    <comment />
+  </opcode>
+  <opcode id="0x0bcf" name="OP_MoveCoin">
+    <comment />
+  </opcode>
+  <opcode id="0x08d8" name="OP_ZonePlayerToBind">
+    <comment />
+  </opcode>
+  <opcode id="0x1219" name="OP_KeyRing">
+    <comment />
+  </opcode>
+  <opcode id="0x674b" name="OP_WhoAllRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x578c" name="OP_WhoAllResponse">
+    <comment />
+  </opcode>
+  <opcode id="0x3956" name="OP_FriendsWho">
+    <comment />
+  </opcode>
+  <opcode id="0x43a3" name="OP_ConfirmDelete">
+    <comment />
+  </opcode>
+  <opcode id="0x4ac6" name="OP_Logout">
+    <comment />
+  </opcode>
+  <opcode id="0x1745" name="OP_Rewind">
+    <comment />
+  </opcode>
+  <opcode id="0x58e2" name="OP_TargetCommand">
+    <comment />
+  </opcode>
+  <opcode id="0x67fe" name="OP_Hide">
+    <comment />
+  </opcode>
+  <opcode id="0x31f4" name="OP_Jump">
+    <comment />
+  </opcode>
+  <opcode id="0x28ec" name="OP_Camp">
+    <comment />
+  </opcode>
+  <opcode id="0x373b" name="OP_Emote">
+    <comment />
+  </opcode>
+  <opcode id="0x009f" name="OP_SetRunMode">
+    <comment />
+  </opcode>
+  <opcode id="0x791e" name="OP_BankerChange">
+    <comment />
+  </opcode>
+  <opcode id="0x075d" name="OP_TargetMouse">
+    <comment />
+  </opcode>
+  <opcode id="0x37b1" name="OP_MobHealth">
+    <comment />
+  </opcode>
+  <opcode id="0x0272" name="OP_TargetHoTT">
+    <comment />
+  </opcode>
+  <opcode id="0x4f4b" name="OP_TargetBuffs">
+    <comment />
+  </opcode>
+  <opcode id="0x4d59" name="OP_XTargetResponse">
+    <comment />
+  </opcode>
+  <opcode id="0x3763" name="OP_XTargetRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x672f" name="OP_XTargetAutoAddHaters">
+    <comment />
+  </opcode>
+  <opcode id="0x61df" name="OP_XTargetOpen">
+    <comment />
+  </opcode>
+  <opcode id="0x3ef8" name="OP_XTargetOpenResponse">
+    <comment />
+  </opcode>
+  <opcode id="0x3377" name="OP_BuffCreate">
+    <comment />
+  </opcode>
+  <opcode id="0x64f2" name="OP_BuffRemoveRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x7280" name="OP_DeleteSpawn">
+    <comment />
+  </opcode>
+  <opcode id="0x109d" name="OP_AutoAttack">
+    <comment />
+  </opcode>
+  <opcode id="0x3526" name="OP_AutoAttack2">
+    <comment />
+  </opcode>
+  <opcode id="0x4b70" name="OP_Consume">
+    <comment />
+  </opcode>
+  <opcode id="0x32ee" name="OP_MoveItem">
+    <comment />
+  </opcode>
+  <opcode id="0x5623" name="OP_MoveMultipleItems">
+    <comment />
+  </opcode>
+  <opcode id="0x18ad" name="OP_DeleteItem">
+    <comment />
+  </opcode>
+  <opcode id="0x01b8" name="OP_DeleteCharge">
+    <comment />
+  </opcode>
+  <opcode id="0x368e" name="OP_ItemPacket">
+    <comment />
+  </opcode>
+  <opcode id="0x70c0" name="OP_ItemLinkResponse">
+    <comment />
+  </opcode>
+  <opcode id="0x4cef" name="OP_ItemLinkClick">
+    <comment />
+  </opcode>
+  <opcode id="0x6b5c" name="OP_ItemPreview">
+    <comment />
+  </opcode>
+  <opcode id="0x6097" name="OP_NewSpawn">
+    <comment />
+  </opcode>
+  <opcode id="0x17e5" name="OP_Track">
+    <comment />
+  </opcode>
+  <opcode id="0x695e" name="OP_TrackTarget">
+    <comment />
+  </opcode>
+  <opcode id="0x4577" name="OP_TrackUnknown">
+    <comment />
+  </opcode>
+  <opcode id="0x3a8f" name="OP_ClickDoor">
+    <comment />
+  </opcode>
+  <opcode id="0x08e8" name="OP_MoveDoor">
+    <comment />
+  </opcode>
+  <opcode id="0x700c" name="OP_RemoveAllDoors">
+    <comment />
+  </opcode>
+  <opcode id="0x51fd" name="OP_EnvDamage">
+    <comment />
+  </opcode>
+  <opcode id="0x4211" name="OP_BoardBoat">
+    <comment />
+  </opcode>
+  <opcode id="0x7617" name="OP_LeaveBoat">
+    <comment />
+  </opcode>
+  <opcode id="0x0ae7" name="OP_ControlBoat">
+    <comment />
+  </opcode>
+  <opcode id="0x5306" name="OP_Forage">
+    <comment />
+  </opcode>
+  <opcode id="0x2219" name="OP_SafeFallSuccess">
+    <comment />
+  </opcode>
+  <opcode id="0x760d" name="OP_RezzComplete">
+    <comment />
+  </opcode>
+  <opcode id="0x3c21" name="OP_RezzRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x701c" name="OP_RezzAnswer">
+    <comment />
+  </opcode>
+  <opcode id="0x52e5" name="OP_Shielding">
+    <comment />
+  </opcode>
+  <opcode id="0x3af1" name="OP_RequestDuel">
+    <comment />
+  </opcode>
+  <opcode id="0x2c57" name="OP_MobRename">
+    <comment />
+  </opcode>
+  <opcode id="0x661b" name="OP_AugmentItem">
+    <comment />
+  </opcode>
+  <opcode id="0x34a7" name="OP_WeaponEquip1">
+    <comment />
+  </opcode>
+  <opcode id="0x559a" name="OP_PlayerStateAdd">
+    <comment />
+  </opcode>
+  <opcode id="0x2d25" name="OP_PlayerStateRemove">
+    <comment />
+  </opcode>
+  <opcode id="0x31e6" name="OP_ApplyPoison">
+    <comment />
+  </opcode>
+  <opcode id="0x4a39" name="OP_Save">
+    <comment />
+  </opcode>
+  <opcode id="0x7cb8" name="OP_TestBuff">
+    <comment />
+  </opcode>
+  <opcode id="0x100e" name="OP_CustomTitles">
+    <comment />
+  </opcode>
+  <opcode id="0x3a54" name="OP_Split">
+    <comment />
+  </opcode>
+  <opcode id="0x4e56" name="OP_YellForHelp">
+    <comment />
+  </opcode>
+  <opcode id="0x261d" name="OP_LoadSpellSet">
+    <comment />
+  </opcode>
+  <opcode id="0x7677" name="OP_Bandolier">
+    <comment />
+  </opcode>
+  <opcode id="0x1a3e" name="OP_PotionBelt">
+    <comment />
+  </opcode>
+  <opcode id="0x6a46" name="OP_DuelResponse">
+    <comment />
+  </opcode>
+  <opcode id="0x68d3" name="OP_DuelResponse2">
+    <comment />
+  </opcode>
+  <opcode id="0x600d" name="OP_SaveOnZoneReq">
+    <comment />
+  </opcode>
+  <opcode id="0x72df" name="OP_ReadBook">
+    <comment />
+  </opcode>
+  <opcode id="0x23b9" name="OP_Dye">
+    <comment />
+  </opcode>
+  <opcode id="0x048c" name="OP_InterruptCast">
+    <comment />
+  </opcode>
+  <opcode id="0x424e" name="OP_AAAction">
+    <comment />
+  </opcode>
+  <opcode id="0x74bd" name="OP_LeadershipExpToggle">
+    <comment />
+  </opcode>
+  <opcode id="0x2797" name="OP_LeadershipExpUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x6c55" name="OP_PurchaseLeadershipAA">
+    <comment />
+  </opcode>
+  <opcode id="0x0026" name="OP_UpdateLeadershipAA">
+    <comment />
+  </opcode>
+  <opcode id="0x1fb5" name="OP_MarkNPC">
+    <comment />
+  </opcode>
+  <opcode id="0x5a58" name="OP_MarkRaidNPC">
+    <comment />
+  </opcode>
+  <opcode id="0x2003" name="OP_ClearNPCMarks">
+    <comment />
+  </opcode>
+  <opcode id="0x20d3" name="OP_ClearRaidNPCMarks">
+    <comment />
+  </opcode>
+  <opcode id="0x76b8" name="OP_DelegateAbility">
+    <comment />
+  </opcode>
+  <opcode id="0x2814" name="OP_SetGroupTarget">
+    <comment />
+  </opcode>
+  <opcode id="0x5d92" name="OP_Charm">
+    <comment />
+  </opcode>
+  <opcode id="0x36a4" name="OP_Stun">
+    <comment />
+  </opcode>
+  <opcode id="0x4613" name="OP_SendFindableNPCs">
+    <comment />
+  </opcode>
+  <opcode id="0x5cea" name="OP_FindPersonRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x7e58" name="OP_FindPersonReply">
+    <comment />
+  </opcode>
+  <opcode id="0x1a30" name="OP_Sound">
+    <comment />
+  </opcode>
+  <opcode id="0x5882" name="OP_PetBuffWindow">
+    <comment />
+  </opcode>
+  <opcode id="0x3bc9" name="OP_LevelAppearance">
+    <comment />
+  </opcode>
+  <opcode id="0x6580" name="OP_Translocate">
+    <comment />
+  </opcode>
+  <opcode id="0x1821" name="OP_Sacrifice">
+    <comment />
+  </opcode>
+  <opcode id="0x08a6" name="OP_PopupResponse">
+    <comment />
+  </opcode>
+  <opcode id="0x575b" name="OP_OnLevelMessage">
+    <comment />
+  </opcode>
+  <opcode id="0x0afb" name="OP_AugmentInfo">
+    <comment />
+  </opcode>
+  <opcode id="0x3de3" name="OP_Petition">
+    <comment />
+  </opcode>
+  <opcode id="0x747c" name="OP_SomeItemPacketMaybe">
+    <comment />
+  </opcode>
+  <opcode id="0x4b15" name="OP_PVPStats">
+    <comment />
+  </opcode>
+  <opcode id="0x04aa" name="OP_PVPLeaderBoardRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x071f" name="OP_PVPLeaderBoardReply">
+    <comment />
+  </opcode>
+  <opcode id="0x3707" name="OP_PVPLeaderBoardDetailsRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x25b7" name="OP_PVPLeaderBoardDetailsReply">
+    <comment />
+  </opcode>
+  <opcode id="0x000f" name="OP_RestState">
+    <comment />
+  </opcode>
+  <opcode id="0x0ecb" name="OP_RespawnWindow">
+    <comment />
+  </opcode>
+  <opcode id="0x5327" name="OP_LDoNButton">
+    <comment />
+  </opcode>
+  <opcode id="0x6326" name="OP_SetStartCity">
+    <comment />
+  </opcode>
+  <opcode id="0x17fd" name="OP_VoiceMacroIn">
+    <comment />
+  </opcode>
+  <opcode id="0x409a" name="OP_VoiceMacroOut">
+    <comment />
+  </opcode>
+  <opcode id="0x465b" name="OP_ItemViewUnknown">
+    <comment />
+  </opcode>
+  <opcode id="0x590e" name="OP_VetRewardsAvaliable">
+    <comment />
+  </opcode>
+  <opcode id="0x1126" name="OP_VetClaimRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x16d4" name="OP_VetClaimReply">
+    <comment />
+  </opcode>
+  <opcode id="0x759e" name="OP_DisciplineUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x6989" name="OP_DisciplineTimer">
+    <comment />
+  </opcode>
+  <opcode id="0x2c84" name="OP_MobUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x5892" name="OP_NPCMoveUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x127f" name="OP_CameraEffect">
+    <comment />
+  </opcode>
+  <opcode id="0x5936" name="OP_SpellEffect">
+    <comment />
+  </opcode>
+  <opcode id="0xc693" name="OP_AddNimbusEffect">
+    <comment />
+  </opcode>
+  <opcode id="0x7b1e" name="OP_RemoveNimbusEffect">
+    <comment />
+  </opcode>
+  <opcode id="0x6b6d" name="OP_AltCurrency">
+    <comment />
+  </opcode>
+  <opcode id="0x5409" name="OP_AltCurrencyMerchantRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x27a2" name="OP_AltCurrencyMerchantReply">
+    <comment />
+  </opcode>
+  <opcode id="0x3788" name="OP_AltCurrencyPurchase">
+    <comment />
+  </opcode>
+  <opcode id="0x40b6" name="OP_AltCurrencySell">
+    <comment />
+  </opcode>
+  <opcode id="0x532a" name="OP_AltCurrencySellSelection">
+    <comment />
+  </opcode>
+  <opcode id="0x0339" name="OP_AltCurrencyReclaim">
+    <comment />
+  </opcode>
+  <opcode id="0x467f" name="OP_CrystalCountUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x7aee" name="OP_CrystalCreate">
+    <comment />
+  </opcode>
+  <opcode id="0x2439" name="OP_CrystalReclaim">
+    <comment />
+  </opcode>
+  <opcode id="0x053c" name="OP_Untargetable">
+    <comment />
+  </opcode>
+  <opcode id="0x70a3" name="OP_IncreaseStats">
+    <comment />
+  </opcode>
+  <opcode id="0x6f4b" name="OP_Weblink">
+    <comment />
+  </opcode>
+  <opcode id="0x502e" name="OP_Marquee">
+    <comment />
+  </opcode>
+  <opcode id="0x15a9" name="OP_ItemRecastDelay">
+    <comment />
+  </opcode>
+  <opcode id="0x1669" name="OP_ResetAA">
+    <comment />
+  </opcode>
+  <opcode id="0x6f80" name="OP_Fling">
+    <comment />
+  </opcode>
+  <opcode id="0x0927" name="OP_CancelSneakHide">
+    <comment />
+  </opcode>
+  <opcode id="0x1643" name="OP_AggroMeterLockTarget">
+    <comment />
+  </opcode>
+  <opcode id="0x16bc" name="OP_AggroMeterTargetInfo">
+    <comment />
+  </opcode>
+  <opcode id="0x1781" name="OP_AggroMeterUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x4701" name="OP_DzAddPlayer">
+    <comment />
+  </opcode>
+  <opcode id="0x1abc" name="OP_DzRemovePlayer">
+    <comment />
+  </opcode>
+  <opcode id="0x405b" name="OP_DzSwapPlayer">
+    <comment />
+  </opcode>
+  <opcode id="0x543d" name="OP_DzMakeLeader">
+    <comment />
+  </opcode>
+  <opcode id="0x14c6" name="OP_DzPlayerList">
+    <comment />
+  </opcode>
+  <opcode id="0x7f4b" name="OP_DzJoinExpeditionConfirm">
+    <comment />
+  </opcode>
+  <opcode id="0x1950" name="OP_DzJoinExpeditionReply">
+    <comment />
+  </opcode>
+  <opcode id="0x7b68" name="OP_DzListTimers">
+    <comment />
+  </opcode>
+  <opcode id="0x9119" name="OP_DzExpeditionInfo">
+    <comment />
+  </opcode>
+  <opcode id="0x205f" name="OP_DzExpeditionList">
+    <comment />
+  </opcode>
+  <opcode id="0xb2e3" name="OP_DzQuit">
+    <comment />
+  </opcode>
+  <opcode id="0x32f0" name="OP_DzMemberStatus">
+    <comment />
+  </opcode>
+  <opcode id="0x3de9" name="OP_DzLeaderStatus">
+    <comment />
+  </opcode>
+  <opcode id="0x5ae4" name="OP_DzMemberList">
+    <comment />
+  </opcode>
+  <opcode id="0x383c" name="OP_DzExpeditionEndsWarning">
+    <comment />
+  </opcode>
+  <opcode id="0x3e0e" name="OP_DzCompass">
+    <comment />
+  </opcode>
+  <opcode id="0x0b7d" name="OP_DzChooseZone">
+    <comment />
+  </opcode>
+  <opcode id="0x3791" name="OP_ManaUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x5f42" name="OP_EnduranceUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x2404" name="OP_MobManaUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x1c81" name="OP_MobEnduranceUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x7b89" name="OP_MercenaryDataUpdateRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x61a4" name="OP_MercenaryDataUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x11c1" name="OP_MercenaryDataRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x72ce" name="OP_MercenaryDataResponse">
+    <comment />
+  </opcode>
+  <opcode id="0x7169" name="OP_MercenaryHire">
+    <comment />
+  </opcode>
+  <opcode id="0x6e83" name="OP_MercenaryDismiss">
+    <comment />
+  </opcode>
+  <opcode id="0x31e4" name="OP_MercenaryTimerRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x0763" name="OP_MercenaryTimer">
+    <comment />
+  </opcode>
+  <opcode id="0x5d26" name="OP_MercenaryUnknown1">
+    <comment />
+  </opcode>
+  <opcode id="0x27f2" name="OP_MercenaryCommand">
+    <comment />
+  </opcode>
+  <opcode id="0x4407" name="OP_MercenarySuspendRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x6f03" name="OP_MercenarySuspendResponse">
+    <comment />
+  </opcode>
+  <opcode id="0x27a0" name="OP_MercenaryUnsuspendResponse">
+    <comment />
+  </opcode>
+  <opcode id="0x0adf" name="OP_LootRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x30f7" name="OP_EndLootRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x4dc9" name="OP_LootItem">
+    <comment />
+  </opcode>
+  <opcode id="0x55c4" name="OP_LootComplete">
+    <comment />
+  </opcode>
+  <opcode id="0x39d6" name="OP_BazaarSearch">
+    <comment />
+  </opcode>
+  <opcode id="0x5829" name="OP_TraderDelItem">
+    <comment />
+  </opcode>
+  <opcode id="0x61b3" name="OP_BecomeTrader">
+    <comment />
+  </opcode>
+  <opcode id="0x31df" name="OP_TraderShop">
+    <comment />
+  </opcode>
+  <opcode id="0x4ef5" name="OP_Trader">
+    <comment />
+  </opcode>
+  <opcode id="0x243a" name="OP_Barter">
+    <comment />
+  </opcode>
+  <opcode id="0x77b5" name="OP_TradeRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x69e2" name="OP_TradeAcceptClick">
+    <comment />
+  </opcode>
+  <opcode id="0x14bf" name="OP_TradeRequestAck">
+    <comment />
+  </opcode>
+  <opcode id="0x4206" name="OP_TradeCoins">
+    <comment />
+  </opcode>
+  <opcode id="0x3993" name="OP_FinishTrade">
+    <comment />
+  </opcode>
+  <opcode id="0x354c" name="OP_CancelTrade">
+    <comment />
+  </opcode>
+  <opcode id="0x68c2" name="OP_TradeMoneyUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x640c" name="OP_MoneyUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x5505" name="OP_TradeBusy">
+    <comment />
+  </opcode>
+  <opcode id="0x7349" name="OP_FinishWindow">
+    <comment />
+  </opcode>
+  <opcode id="0x40ef" name="OP_FinishWindow2">
+    <comment />
+  </opcode>
+  <opcode id="0x189c" name="OP_ItemVerifyRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x097b" name="OP_ItemVerifyReply">
+    <comment />
+  </opcode>
+  <opcode id="0x791b" name="OP_ShopPlayerSell">
+    <comment />
+  </opcode>
+  <opcode id="0x4fed" name="OP_ShopRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x30a8" name="OP_ShopEnd">
+    <comment />
+  </opcode>
+  <opcode id="0x3196" name="OP_ShopEndConfirm">
+    <comment />
+  </opcode>
+  <opcode id="0x0ddd" name="OP_ShopPlayerBuy">
+    <comment />
+  </opcode>
+  <opcode id="0x724f" name="OP_ShopDelItem">
+    <comment />
+  </opcode>
+  <opcode id="0x4aa1" name="OP_ClickObject">
+    <comment />
+  </opcode>
+  <opcode id="0x0c1e" name="OP_ClickObjectAction">
+    <comment />
+  </opcode>
+  <opcode id="0x7a11" name="OP_ClearObject">
+    <comment />
+  </opcode>
+  <opcode id="0x6e02" name="OP_RecipeDetails">
+    <comment />
+  </opcode>
+  <opcode id="0x71b1" name="OP_RecipesFavorite">
+    <comment />
+  </opcode>
+  <opcode id="0x6290" name="OP_RecipesSearch">
+    <comment />
+  </opcode>
+  <opcode id="0x1db6" name="OP_RecipeReply">
+    <comment />
+  </opcode>
+  <opcode id="0x40d7" name="OP_RecipeAutoCombine">
+    <comment />
+  </opcode>
+  <opcode id="0x579a" name="OP_TradeSkillCombine">
+    <comment />
+  </opcode>
+  <opcode id="0x378d" name="OP_OpenGuildTributeMaster">
+    <comment />
+  </opcode>
+  <opcode id="0x7666" name="OP_OpenTributeMaster">
+    <comment />
+  </opcode>
+  <opcode id="0x79fc" name="OP_SelectTribute">
+    <comment />
+  </opcode>
+  <opcode id="0x4f3e" name="OP_TributeItem">
+    <comment />
+  </opcode>
+  <opcode id="0x58fb" name="OP_TributeMoney">
+    <comment />
+  </opcode>
+  <opcode id="0x241d" name="OP_TributeToggle">
+    <comment />
+  </opcode>
+  <opcode id="0x5300" name="OP_TributePointUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x5d18" name="OP_LeaveAdventure">
+    <comment />
+  </opcode>
+  <opcode id="0x400f" name="OP_AdventureFinish">
+    <comment />
+  </opcode>
+  <opcode id="0x3cb0" name="OP_AdventureInfoRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x4c54" name="OP_AdventureInfo">
+    <comment />
+  </opcode>
+  <opcode id="0x2c6c" name="OP_AdventureRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x5648" name="OP_AdventureDetails">
+    <comment />
+  </opcode>
+  <opcode id="0x7171" name="OP_AdventureData">
+    <comment />
+  </opcode>
+  <opcode id="0x1b01" name="OP_AdventureUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x6922" name="OP_AdventureMerchantRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x3e47" name="OP_AdventureMerchantResponse">
+    <comment />
+  </opcode>
+  <opcode id="0x5b72" name="OP_AdventureMerchantPurchase">
+    <comment />
+  </opcode>
+  <opcode id="0x2f9b" name="OP_AdventureMerchantSell">
+    <comment />
+  </opcode>
+  <opcode id="0x65c3" name="OP_AdventurePointsUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x5a62" name="OP_AdventureStatsRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x2370" name="OP_AdventureStatsReply">
+    <comment />
+  </opcode>
+  <opcode id="0x7093" name="OP_AdventureLeaderboardRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x7f79" name="OP_AdventureLeaderboardReply">
+    <comment />
+  </opcode>
+  <opcode id="0x4c10" name="OP_GroupDisband">
+    <comment />
+  </opcode>
+  <opcode id="0x6110" name="OP_GroupInvite">
+    <comment />
+  </opcode>
+  <opcode id="0x1649" name="OP_GroupFollow">
+    <comment />
+  </opcode>
+  <opcode id="0x3abb" name="OP_GroupUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x6194" name="OP_GroupUpdateB">
+    <comment />
+  </opcode>
+  <opcode id="0x7323" name="OP_GroupAcknowledge">
+    <comment />
+  </opcode>
+  <opcode id="0x0f6c" name="OP_GroupDelete">
+    <comment />
+  </opcode>
+  <opcode id="0x2a50" name="OP_CancelInvite">
+    <comment />
+  </opcode>
+  <opcode id="0x2060" name="OP_GroupFollow2">
+    <comment />
+  </opcode>
+  <opcode id="0x32c2" name="OP_GroupInvite2">
+    <comment />
+  </opcode>
+  <opcode id="0x1ae5" name="OP_GroupDisbandYou">
+    <comment />
+  </opcode>
+  <opcode id="0x74da" name="OP_GroupDisbandOther">
+    <comment />
+  </opcode>
+  <opcode id="0x21b4" name="OP_GroupLeaderChange">
+    <comment />
+  </opcode>
+  <opcode id="0x70e2" name="OP_GroupRoles">
+    <comment />
+  </opcode>
+  <opcode id="0x4229" name="OP_GroupMakeLeader">
+    <comment />
+  </opcode>
+  <opcode id="0x6eae" name="OP_DoGroupLeadershipAbility">
+    <comment />
+  </opcode>
+  <opcode id="0x02cf" name="OP_GroupLeadershipAAUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x3342" name="OP_GroupMentor">
+    <comment />
+  </opcode>
+  <opcode id="0x486c" name="OP_InspectBuffs">
+    <comment />
+  </opcode>
+  <opcode id="0x6060" name="OP_LFGCommand">
+    <comment />
+  </opcode>
+  <opcode id="0x0340" name="OP_LFGGetMatchesRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x5048" name="OP_LFGGetMatchesResponse">
+    <comment />
+  </opcode>
+  <opcode id="0x4d7d" name="OP_LFPGetMatchesRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x22c6" name="OP_LFPGetMatchesResponse">
+    <comment />
+  </opcode>
+  <opcode id="0x49a9" name="OP_LFPCommand">
+    <comment />
+  </opcode>
+  <opcode id="0x55ac" name="OP_RaidInvite">
+    <comment />
+  </opcode>
+  <opcode id="0x3973" name="OP_RaidUpdate">
+    <comment />
+  </opcode>
+  <opcode id="0x2703" name="OP_Taunt">
+    <comment />
+  </opcode>
+  <opcode id="0x3eba" name="OP_CombatAbility">
+    <comment />
+  </opcode>
+  <opcode id="0x02af" name="OP_SenseTraps">
+    <comment />
+  </opcode>
+  <opcode id="0x39e8" name="OP_PickPocket">
+    <comment />
+  </opcode>
+  <opcode id="0x78bf" name="OP_DisarmTraps">
+    <comment />
+  </opcode>
+  <opcode id="0x5ec8" name="OP_Disarm">
+    <comment />
+  </opcode>
+  <opcode id="0x5d55" name="OP_Sneak">
+    <comment />
+  </opcode>
+  <opcode id="0x1e2a" name="OP_Fishing">
+    <comment />
+  </opcode>
+  <opcode id="0x640e" name="OP_InstillDoubt">
+    <comment />
+  </opcode>
+  <opcode id="0x52fa" name="OP_FeignDeath">
+    <comment />
+  </opcode>
+  <opcode id="0x0ecf" name="OP_Mend">
+    <comment />
+  </opcode>
+  <opcode id="0x0386" name="OP_Bind_Wound">
+    <comment />
+  </opcode>
+  <opcode id="0x3d5c" name="OP_LDoNOpen">
+    <comment />
+  </opcode>
+  <opcode id="0x9be3" name="OP_LDoNPickLock">
+    <comment />
+  </opcode>
+  <opcode id="0x0438" name="OP_LDoNInspect">
+    <comment />
+  </opcode>
+  <opcode id="0x3714" name="OP_TaskDescription">
+    <comment />
+  </opcode>
+  <opcode id="0x08d3" name="OP_TaskActivity">
+    <comment />
+  </opcode>
+  <opcode id="0x4eba" name="OP_CompletedTasks">
+    <comment />
+  </opcode>
+  <opcode id="0x5e19" name="OP_TaskActivityComplete">
+    <comment />
+  </opcode>
+  <opcode id="0x0a23" name="OP_AcceptNewTask">
+    <comment />
+  </opcode>
+  <opcode id="0x39f0" name="OP_CancelTask">
+    <comment />
+  </opcode>
+  <opcode id="0x5727" name="OP_TaskMemberList">
+    <comment />
+  </opcode>
+  <opcode id="0x48a2" name="OP_OpenNewTasksWindow">
+    <comment />
+  </opcode>
+  <opcode id="0x36e8" name="OP_AvaliableTask">
+    <comment />
+  </opcode>
+  <opcode id="0x5f1c" name="OP_TaskHistoryRequest">
+    <comment />
+  </opcode>
+  <opcode id="0x3d05" name="OP_TaskHistoryReply">
+    <comment />
+  </opcode>
+  <opcode id="0x7a48" name="OP_TaskRequestTimer">
+    <comment />
+  </opcode>
+  <opcode id="0x0d32" name="OP_NewTitlesAvailable">
+    <comment />
+  </opcode>
+  <opcode id="0x6344" name="OP_RequestTitles">
+    <comment />
+  </opcode>
+  <opcode id="0x2d08" name="OP_SendTitleList">
+    <comment />
+  </opcode>
+  <opcode id="0x6527" name="OP_SetTitle">
+    <comment />
+  </opcode>
+  <opcode id="0x4c21" name="OP_SetTitleReply">
+    <comment />
+  </opcode>
+  <opcode id="0x5770" name="OP_PlayMP3">
+    <comment />
+  </opcode>
+  <opcode id="0x1456" name="OP_UpdateAura">
+    <comment />
+  </opcode>
+  <opcode id="0x71da" name="OP_RemoveTrap">
+    <comment />
+  </opcode>
+</seqopcodes>

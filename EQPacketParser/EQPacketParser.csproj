@@ -18,10 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="OpCodes\Emu\RoF.txt">
+    <None Update="OpCodes\Emu\RoF.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="OpCodes\Emu\RoF2.txt">
+    <None Update="OpCodes\Emu\RoF2.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="OpCodes\Live\20181217\world.xml">

@@ -15,28 +15,16 @@ namespace PacketRipper
 
             if (isLive)
             {
-                ParseLiveOpCodeFile($@".\OpCodes\Live\{patch}\world.xml");
-                ParseLiveOpCodeFile($@".\OpCodes\Live\{patch}\zone.xml");
+                ParseOpCodeXml($@".\OpCodes\Live\{patch}\world.xml");
+                ParseOpCodeXml($@".\OpCodes\Live\{patch}\zone.xml");
             }
             else
             {
-                ParseEmuOpCodeFile(patch);
+                ParseOpCodeXml($@".\OpCodes\Emu\{patch}.xml");
             }
         }
 
-        private void ParseEmuOpCodeFile(string patchName)
-        {
-            OpCodes = new Dictionary<ushort, string>();
-
-            var lines = File.ReadAllLines($@".\OpCodes\Emu\{patchName}.txt");
-            foreach (var r in lines)
-            {
-                var parts = r.Split(new char[] { '=' });
-                OpCodes.Add(Convert.ToUInt16(parts[1], 16), parts[0]);
-            }
-        }
-
-        private void ParseLiveOpCodeFile(string fileName)
+        private void ParseOpCodeXml(string fileName)
         {
             var xml = new XmlDocument();
             xml.Load(fileName);
